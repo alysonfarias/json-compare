@@ -10,24 +10,24 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'JSON Compare Tool | Easy Online JSON Comparison',
     description: 'Compare JSON objects side by side with our free online JSON comparison tool. Easily spot differences, additions, and removals in your JSON data.',
-    url: 'https://yourwebsite.com/json-compare',
-    siteName: 'Your Website Name',
+    url: 'https://json-compare-pro.vercel.app',
+    siteName: 'Comparar JSON | Json Compare Online',
     images: [
       {
-        url: 'https://yourwebsite.com/og-image-json-compare.jpg',
+        url: 'https://json-compare-pro.vercel.app/og-image-json-compare.jpg',
         width: 1200,
         height: 630,
         alt: 'JSON Compare Tool',
       },
     ],
-    locale: 'en_US',
+    locale: 'pt_BR',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'JSON Compare Tool | Easy Online JSON Comparison',
     description: 'Compare JSON objects side by side with our free online JSON comparison tool. Easily spot differences, additions, and removals in your JSON data.',
-    images: ['https://yourwebsite.com/og-image-json-compare.jpg'],
+    images: ['https://json-compare-pro.vercel.app/og-image-json-compare.jpg'],
   },
 }
 
@@ -54,7 +54,7 @@ export default function RootLayout({
       >
         <Script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1137048753085508"
           crossOrigin="anonymous"
         />
         {children}

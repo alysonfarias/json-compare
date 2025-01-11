@@ -23,7 +23,7 @@ export function useJsonCompare(json1: any, json2: any) {
   return comparisonResult
 }
 
-function compareJson(obj1: any, obj2: any, path: string = ''): ComparisonResult {
+export function compareJson(obj1: any, obj2: any, path: string = ''): ComparisonResult {
   const result: ComparisonResult = {
     added: [],
     removed: [],

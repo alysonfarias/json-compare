@@ -3,7 +3,7 @@ import { StructuredData } from './structured-data'
 import { AdSense } from '../components/adsense'
 
 export default function JsonComparePage() {
-  const adClient = 'ca-pub-XXXXXXXXXXXXXXXX' // Replace with your AdSense publisher ID
+  const adClient = 'ca-pub-1137048753085508' // Replace with your AdSense publisher ID
 
   return (
     <>
