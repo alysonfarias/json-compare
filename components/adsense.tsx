@@ -1,5 +1,11 @@
 'use client'
 
+declare global {
+  interface Window {
+    adsbygoogle: any[]
+  }
+}
+
 import { useEffect } from 'react'
 
 interface AdSenseProps {
@@ -29,4 +35,3 @@ export function AdSense({ adClient, adSlot, adFormat = 'auto', fullWidthResponsi
     />
   )
 }
-
