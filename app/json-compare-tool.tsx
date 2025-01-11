@@ -101,7 +101,7 @@ export function JsonCompareTool() {
       )}
       {parsedJson1 && parsedJson2 && ( // Added AdSense placement
         <div className="mt-8">
-          <AdSense adClient="ca-pub-XXXXXXXXXXXXXXXX" adSlot="2468013579" />
+          <AdSense adClient="ca-pub-1137048753085508" adSlot="2468013579" />
         </div>
       )}
     </div>
