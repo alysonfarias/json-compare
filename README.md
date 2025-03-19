@@ -1,3 +1,8 @@
+# About
+played with v0, tried to add ADS for fun, stopped by Google Ads Team they said it was not relevant enought (leaving here for boilerplate purpose)
+
+# Docs
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
